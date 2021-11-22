@@ -23,6 +23,9 @@ function App() {
       }}> Enviar </button>
       <br />
       <div id="container">
+        <h2>
+          Cep: {dados?.cep}
+        </h2>
 
         <div className="cssCep">
           Logradouro: {dados?.logradouro}
